@@ -4,7 +4,7 @@
     <span translate>seja bem-vindo(a)!</span>
 </p>
 
-<p>O prazo limite é dia {{grupo.deadlineInscricao}}.</p>
+<p>O prazo limite para realizar sua inscrição é dia {{grupo.deadlineInscricao}}.</p>
 
 <p><span translate="Profile.MandatoryFields"></span></p>
 
@@ -107,12 +107,12 @@
         <div class="alert-icon">
             <i class="material-icons">error_outline</i>
         </div>
-        Para prosseguir preencha o(s) campo(s) 
+        Para prosseguir, preencha o(s) seguinte(s) campo(s)
         <ul>
             <li ng-repeat="erros in userForm track by erros.$name" ng-if="erros.$error | objLength"><span translate="{{erros.$name | inputErrorLabel}}"></span></li>
         </ul>
         <br>
-        Campos com erro se encontram marcados com um X
+        Campos com erro se encontram marcados com um X.
     </div>
     <button type="submit" class="btn btn-primary" ng-disabled="submitting || userForm.$invalid" ng-show="canSubmit()"><span
             translate>Enviar</span></button>
