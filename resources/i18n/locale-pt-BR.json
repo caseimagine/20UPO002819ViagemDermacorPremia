@@ -197,8 +197,8 @@
     },
 
     "Upload":{
-        "Title":"Upload da página da foto do passaporte",
-        "Descricao":"Faça aqui o upload do seu passaporte digitalizado. Uma vez que a inscrição for concluída você não poderá mais alterar seus dados.",
+        "Title":"Upload da CNH ou RG",
+        "Descricao":"Faça aqui o upload da sua CNH (válida) ou RG (com menos de 10 anos de emissão). Uma vez que a inscrição for concluída você não poderá mais alterar seus dados.",
         "DetalheComParticipante": "Você deve definir a qual participante o arquivo é referente (titular ou acompanhante) para concluir a inscrição.",
         "SelecioneArraste": "Arraste seus arquivos aqui",
         "Ou": "ou",
